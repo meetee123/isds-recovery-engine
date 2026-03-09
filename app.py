@@ -48,7 +48,7 @@ from memo_generator import MemoGenerator
 # ---------------------------------------------------------------------------
 
 st.set_page_config(
-    page_title="ISDS Recovery Realism Engine",
+    page_title="Investor-State Dispute Enforcement Engine",
     page_icon="⚖️",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -755,10 +755,11 @@ with st.sidebar:
     <div style="text-align:center; padding: 10px 0 20px;">
         <div style="font-size:2rem;">⚖️</div>
         <div style="font-size:1.1rem; font-weight:800; color:#A8D8DC; letter-spacing:0.05em;">
-            ISDS Recovery<br>Realism Engine
+            Investor-State Dispute<br>Settlement Analysis Engine
         </div>
         <div style="font-size:0.7rem; color:rgba(255,255,255,0.55); margin-top:4px;">
-            Monte Carlo · Bayesian · Behavioral
+            Professional dashboard for investor-state dispute settlement analysis, 
+            Monte Carlo simulation, and enforcement pathway mapping for African states.
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -817,9 +818,9 @@ with st.sidebar:
     st.divider()
     st.markdown(
         '<div style="font-size:0.7rem; color:rgba(255,255,255,0.4); text-align:center;">'
-        'v1.0 · March 2026<br>'
-        'For research purposes only.<br>'
-        'Not legal advice.'
+        'Updated in 2026<br>'
+        'For research purposes.<br>'
+    
         '</div>',
         unsafe_allow_html=True,
     )
